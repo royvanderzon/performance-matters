@@ -30,5 +30,3 @@ app.get('*', (req, res, next) => {
 app.listen(port, (err) => {
     err ? console.error(err) : console.log(`app running on http://localhost:${port}`);
 });
-
-// test

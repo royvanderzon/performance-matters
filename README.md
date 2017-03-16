@@ -16,3 +16,8 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+## Used techs to improve page speed
+
+- Minify CSS
+- Minify JS
