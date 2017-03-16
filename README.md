@@ -36,5 +36,5 @@ Differences from actual Bootstrap documentation:
 ## After optimalisation
 ###First run
 18 request | 1.3 MB transferred | Finish: 524 ms | DOMContentLoaded: 288ms | Load: 560ms
-####Second run
+###Second run
 18 request | 1.3 MB transferred | Finish: 442 ms | DOMContentLoaded: 227ms | Load: 467ms
