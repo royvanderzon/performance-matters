@@ -27,14 +27,15 @@ Differences from actual Bootstrap documentation:
 - Load font with font-observer (saved in cookie and class .font-load is rendered serverside)
 - Offline browsing with manifest (only works for homepage)
 
-### Before optimalisation
+## Before optimalisation
+### First run
 18 request | 1.3 MB transferred | Finish: 524 ms | DOMContentLoaded: 288ms | Load: 560ms
-####Second run
+### Second run
 18 request | 1.3 MB transferred | Finish: 442 ms | DOMContentLoaded: 227ms | Load: 467ms
 
 
 ## After optimalisation
-###First run
+### First run
 18 request | 1.3 MB transferred | Finish: 524 ms | DOMContentLoaded: 288ms | Load: 560ms
-###Second run
+### Second run
 18 request | 1.3 MB transferred | Finish: 442 ms | DOMContentLoaded: 227ms | Load: 467ms
