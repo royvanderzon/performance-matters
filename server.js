@@ -69,7 +69,6 @@ function checkCookie(cookie) {
 
 
 app.get('*', (req, res, next) => {
-	console.log(checkCookie(req.cookies.fontLoaded))
     res.render(path.join('./', req.url, 'index.html'), {
     	fontLoaded : checkCookie(req.cookies.fontLoaded)
     });
