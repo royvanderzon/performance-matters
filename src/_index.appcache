@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+# version 0.1
+
+boostrap.css
+docs.css
+jquery.min.js
+bootstrap.js
+docs.min.js
+fontObserver.js
+main.js

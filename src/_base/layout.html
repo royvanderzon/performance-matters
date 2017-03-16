@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="cache.manifest" type="text/cache-manifest">
 <head>
     {% include './app-meta.html' %}
 
@@ -10,14 +10,15 @@
     {% block head_extra %}{% endblock %}
 </head>
 
-<body {% block body_attributes %}{% endblock %}>
-
+<body {% block body_attributes %}{% endblock %}{% if fontLoaded %}font-load{% endif %}">
     {% block body %}{% endblock %}
 
     <script src="/assets/js/vendor/jquery.min.js"></script>
     <script src="/dist/js/bootstrap.js"></script>
     <script src="/assets/js/docs.min.js"></script>
     <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/assets/js/fontObserver.js"></script>
+    <script src="/assets/js/main.js"></script>
     {% block scripts_extra %}{% endblock %}
 </body>
 </html>
